@@ -25,8 +25,8 @@ Before running this application, you need to install:
 
 1. Clone this repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-name>
+   git clone https://github.com/bradbrok/pdf2img
+   cd pdf2img
    ```
 
 2. Create a virtual environment (recommended):
