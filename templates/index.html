@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PDF2IMG</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>PDF2IMG</h1>
+        </div>
+    </header>
+    <main class="main-content">
+        <div class="container">
+            <h2>Convert Files to Images</h2>
+            <form action="/upload" method="POST" enctype="multipart/form-data" class="upload-form">
+                <div class="form-group">
+                    <label for="files">Upload Files:</label>
+                    <input type="file" id="files" name="files" accept=".pdf,.txt" multiple required>
+                    <small class="help-text">Supported formats: PDF, TXT</small>
+                </div>
+                <div class="form-group">
+                    <label for="dpi">DPI:</label>
+                    <input type="number" id="dpi" name="dpi" value="200" min="72" max="1200" required>
+                </div>
+                <div class="form-group">
+                    <label for="font_size">Font Size (for text files):</label>
+                    <input type="number" id="font_size" name="font_size" value="12" min="8" max="72">
+                    <small class="help-text">Font size for text to image conversion</small>
+                </div>
+                <button type="submit" class="btn btn-secondary">Convert and Download</button>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 202X PDF2IMG. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

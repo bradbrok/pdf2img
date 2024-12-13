@@ -1,0 +1,11 @@
+This is a test text file.
+It contains multiple lines of text
+to verify the text-to-image conversion functionality.
+
+The converter should properly handle:
+- Multiple lines
+- Proper spacing
+- Text wrapping
+- Font size adjustments
+
+This will help us ensure the text-to-image conversion works correctly.
