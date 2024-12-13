@@ -16,11 +16,6 @@ Before running this application, you need to install:
   brew install poppler
   ```
 
-- **Windows**:
-  1. Download Poppler from: http://blog.alivate.com.au/poppler-windows/
-  2. Extract the downloaded file
-  3. Add the `bin` folder to your system PATH
-
 - **Linux**:
   ```bash
   sudo apt-get install poppler-utils
