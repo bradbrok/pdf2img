@@ -6,7 +6,7 @@ A Flask web application that converts PDF files and text files to images. PDFs a
 
 Before running this application, you need to install:
 
-1. Python 3.7 or higher
+1. Python 13.1 or higher
 2. Poppler (required for PDF conversion)
 
 ### Installing Poppler
